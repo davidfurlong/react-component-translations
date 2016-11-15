@@ -1,4 +1,4 @@
-# React component translations
+# React local translations
 
 The idea behind this project is to build a lightweight, low-code-overhead, component-scoped "local" translation method for react.
 
@@ -24,7 +24,7 @@ class Login extends Component {
 }
 
 // translations.js
-import { compileTranslation } from 'compileTranslation.js';
+import compileTranslation from 'compileTranslation.js';
 
 const translations = {
   title: {
@@ -34,6 +34,8 @@ const translations = {
   }
 }
 export default compileTranslation(translations);
+
+
 
 // compileTranslation.js
 import { languageInterface } from '../interfaces';
@@ -48,6 +50,8 @@ export default translations => () => {
   }
   return localeTranslation;
 }
+
+
 
 // languageInterface
 import platformInterface from './platformInterface';
@@ -105,6 +109,7 @@ class Language extends platformInterface {
 const l = new Language();
 
 export default l;
+
 
 
 // Changing the language
