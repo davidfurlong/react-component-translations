@@ -10,7 +10,8 @@ None of these seem even remotely minimal when it comes to lines of code added to
 - Local translations scope. There are great reasons to use local CSS for react components, and the reasons for using local translations are quite similar. The easy of changing parts of the code and quickly reflecting changes to the translations is liberating. However the drawbacks of doing this must be acknowledged aswell a) duplicate translations b) when getting translated there are many different files to update. However a) can be handled by an optional global translations file which holds common phrases and is imported into local translation files if needed, and b) can be handled by writing a build tool to make the process of translating phrases in multiple files easier.
 
 
-```
+```javascript
+
 // Login.js
 const t10s = require('./translations')();
 
