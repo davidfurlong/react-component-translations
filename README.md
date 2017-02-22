@@ -1,6 +1,7 @@
 # React local translations
 
-# UPDATE HALF A YEAR LATER - THIS IS A BAD IDEA, dont do this.
+## UPDATE HALF A YEAR LATER - THIS IS A BAD IDEA, dont do this.
+## Look at https://github.com/DeedMob/react-local-translations instead
 
 The idea behind this project is to build a lightweight, low-code-overhead, component-scoped "local" translation method for react.
 
