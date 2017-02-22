@@ -1,5 +1,7 @@
 # React local translations
 
+# UPDATE HALF A YEAR LATER - THIS IS A BAD IDEA, dont do this.
+
 The idea behind this project is to build a lightweight, low-code-overhead, component-scoped "local" translation method for react.
 
 Each component has it's own translations.js file which is imported into that component under a namespace t10s and compiled is a simple javascript Object which maps from key to value. The value can be anything: string, number or a function
